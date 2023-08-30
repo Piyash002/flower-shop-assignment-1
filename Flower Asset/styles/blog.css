@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+}
+
+/* header side*/
+
+.title-descrip{
+    background-color:#E554731A;
+    display: flex;
+  justify-content: space-between;
+   
+    
+    
+    
+}
+
+#left-side{
+    color: #272727;
+   margin-right: 240;
+   
+    color: #272727;
+     }
+
+          .left-side,
+          p,
+          h1,
+          button {
+              margin-top: 30px;
+          }
+    
+          /*.title-descrip h1{
+        font-size: 50px;
+       }*/
+    
+      button {
+              border-radius: 8px;
+              background: #E55473;
+              padding: 20px 43px;
+              height: 62px;
+          }
+
+
+   .rigt-side{
+    
+        height: 800px;
+        flex-shrink: 0;
+    margin-top: 70px;
+    
+    border: 1px solid #000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+   }
+
+
+   /* description*/
+
+
+   .description{
+   text-align: center;
+   margin-top: 138px;
+ 
+   }
+  
+
+   /* Flower varitys*/
+
+.flower-varity{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 48px;
+}
+ 
+
+.flowers1{
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flowers2{
+    width: 314px;
+    height: 471px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flowers3{
+    width: 314px;
+    height: 471px;
+     border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    flex-shrink: 0;
+}
+
+.sample-text>p{
+   color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+        
+}
